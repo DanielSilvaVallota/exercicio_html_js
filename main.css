@@ -1,0 +1,37 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    text-align: center;
+    font-family: 'Handlee', cursive;
+}
+
+#campoA, #campoB {
+    display: flex;
+    text-align: center;
+    width: 140px;
+    border: 1px solid;
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
+        font-family: 'Handlee', cursive;
+
+}
+
+#enviar {
+    width: 140px;
+    background-color: rgb(100, 72, 243);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    font-size: larger;
+}
+
+#enviar:hover {
+    background-color: rgb(129, 147, 244);
+}
+
